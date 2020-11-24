@@ -1,0 +1,49 @@
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-size: 3em;
+}
+body {
+    background-color: #1aa260;
+}
+#email {
+    text-align: center;
+}
+#email a {
+    color: #ffffff;
+    text-decoration: black;
+}
+#instagram {
+    text-align: center;
+}
+#instagram a {
+    color: #ffffff;
+    text-decoration: black;
+}
+#main-title {
+    text-align: center;
+    background-color: #333333;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+#kik {
+    text-align: center;
+}
+#kik a {
+    color: #ffffff;
+    text-decoration: black;
+
+}
+#footer {
+    font-family: "Lucida Console", Courier, monospace;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    letter-spacing: 3px;
+    background-color: #333333;
+}
+
