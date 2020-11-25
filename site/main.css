@@ -35,20 +35,19 @@ body {
     color: #1aa260;
     text-decoration: black;
     border: solid 2px;
-}
-#emailhover {
-    color: black;
-    transition: ease-in-out 2s;
+    padding: 3px;
 }
 #instagram a {
     color: #1aa260;
     text-decoration: black;
     border: solid 2px;
+    padding: 3px;
 }
 #kik a {
     color: #1aa260;
     text-decoration: black;
     border: solid 2px;
+    padding: 3px;
 }
 #main-title h1 {
     margin: 0;
