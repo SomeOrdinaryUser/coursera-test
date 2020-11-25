@@ -1,17 +1,27 @@
-h1 {
+#top {
+    transition-duration: .3s;
+    text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.068),
+    3px -3px -9px rgba(0, 255, 55, 0.425);
+}
+#main-title h1 {
     font-family: "Comic Sans MS", cursive, sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #ffffff;
-    font-size: 3em;
+    font-size: 34px;
+}
+#top:hover {
+    transition-duration: .3s;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0),
+    1px -1px 15px rgba(255, 0, 0, 0.3);
 }
 #content-text {
     text-align: center;
     text-transform: uppercase;
 }
 body {
-    margin-top: 110px;
-    margin-bottom: 120px;
-    background-color: #af3ec0c4;
+    margin-top: 80px;
+    margin-bottom: 110px;
+    background-color: #503d54;
     color: black;
 
 }
@@ -21,33 +31,73 @@ body {
 }
 #email {
     text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
 }
 #instagram {
     text-align: center;
-}
-#videos {
-    padding-bottom: 15px;
+    font-size: 12px;
 }
 #kik {
     text-align: center;
+    font-size: 12px;
+}
+#email a:hover {
+    background-color: #1aa260;
+    transition-duration: .1s;
+    color: rgb(0, 0, 0);
+    border: solid 2px;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+    0px -5px 35px rgba(255,255,255,0.3);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#instagram a:hover {
+    background-color: #1aa260;
+    transition-duration: .1s;
+    color: rgb(0, 0, 0);
+    border: solid 2px;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+    0px -5px 35px rgba(255,255,255,0.3);
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#kik a:hover {
+    background-color: #1aa260;
+    transition-duration: .1s;
+    color: rgb(0, 0, 0);
+    border: solid 2px;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+    0px -5px 35px rgba(255,255,255,0.3);
+    padding-left: 3%;
+    padding-right: 3%;
 }
 #email a {
+    text-transform: uppercase;
     color: #1aa260;
     text-decoration: black;
     border: solid 2px;
-    padding: 3px;
+    padding: 3.5px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 #instagram a {
+    text-transform: uppercase;
     color: #1aa260;
     text-decoration: black;
     border: solid 2px;
-    padding: 3px;
+    padding: 3.5px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 #kik a {
+    text-transform: uppercase;
     color: #1aa260;
     text-decoration: black;
     border: solid 2px;
-    padding: 3px;
+    padding: 3.5px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 #main-title h1 {
     margin: 0;
@@ -67,5 +117,15 @@ body {
     bottom: 0;
     width: 100%;
     background-color: #333333;
+}
+#footer #email p, #footer #instagram p, #footer #kik p {
+    padding: 4px;
+}
+#content a  {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+#content p {
+    text-align: center;
 }
 
