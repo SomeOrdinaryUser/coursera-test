@@ -4,38 +4,55 @@ h1 {
     color: #ffffff;
     font-size: 3em;
 }
+#content-text {
+    text-align: center;
+    text-transform: uppercase;
+}
 body {
-    background-color: #1aa260;
+    margin-top: 110px;
+    margin-bottom: 120px;
+    background-color: #af3ec0c4;
+    color: black;
+
+}
+#content {
+    margin: 0 auto;
+    width: 400px;
 }
 #email {
     text-align: center;
 }
-#email a {
-    color: #ffffff;
-    text-decoration: black;
-}
 #instagram {
     text-align: center;
 }
-#instagram a {
-    color: #ffffff;
+#videos {
+    padding-bottom: 15px;
+}
+#kik {
+    text-align: center;
+}
+#email a {
+    color: #1aa260;
     text-decoration: black;
 }
-#main-title {
+#instagram a {
+    color: #1aa260;
+    text-decoration: black;
+}
+#kik a {
+    color: #1aa260;
+    text-decoration: black;
+}
+#main-title h1 {
+    margin: 0;
+    padding: 16px;
     text-align: center;
     background-color: #333333;
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-}
-#kik {
-    text-align: center;
-}
-#kik a {
-    color: #ffffff;
-    text-decoration: black;
-
+    color: #1aa260;
 }
 #footer {
     font-family: "Lucida Console", Courier, monospace;
@@ -43,7 +60,6 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    letter-spacing: 3px;
     background-color: #333333;
 }
 
