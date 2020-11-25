@@ -34,14 +34,21 @@ body {
 #email a {
     color: #1aa260;
     text-decoration: black;
+    border: solid 2px;
+}
+#emailhover {
+    color: black;
+    transition: ease-in-out 2s;
 }
 #instagram a {
     color: #1aa260;
     text-decoration: black;
+    border: solid 2px;
 }
 #kik a {
     color: #1aa260;
     text-decoration: black;
+    border: solid 2px;
 }
 #main-title h1 {
     margin: 0;
