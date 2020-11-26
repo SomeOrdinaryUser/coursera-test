@@ -77,8 +77,7 @@ li {
 
 body {
     height: 3000px;
-    background-image: url("/themes/boxed-bg-dark.jpg");
-    background-repeat: repeat-y fixed;
+    background-image: url(themes/boxed-bg-dark.jpg);
     margin-top: 120px;
 }
 
