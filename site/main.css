@@ -194,7 +194,9 @@ body {
     }
     #footer ul li a {
         font-size: 20px;
-        margin-bottom: 35px;
+    }
+    #footer {
+        font-size: 22px;
     }
 }
 
