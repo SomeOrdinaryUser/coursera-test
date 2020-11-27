@@ -33,13 +33,18 @@ li {
     left: 0;
 }
 
+.logo-kekw:hover {
+    border-radius: 50%;
+}
+
 .header .logo-kekw {
-    float: left;
-    padding-left: 25px;
+    border: #62b862dc solid 2px;
+    padding: 1.8px 1.8px;
     height: 64px;
+    float: left;
     width: 64px;
     margin-top: 18px;
-    margin-left: 15px;
+    margin-left: 33px;
 }
 
 .header nav {
@@ -74,7 +79,6 @@ li {
 }
 
 body {
-    box-sizing: border-box;
     height: 3000px;
     background-image: url(themes/boxed-bg-dark.jpg);
     margin-top: 120px;
@@ -95,7 +99,9 @@ body {
 }
 
 #box-title:hover {
-    border: 2px solid #f67600;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
 }
 
 #box {
