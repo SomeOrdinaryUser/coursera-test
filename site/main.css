@@ -32,6 +32,15 @@ li {
     border-radius: 50%;
 }
 
+.header nav {
+    float: right;
+    line-height: 50px;
+}
+
+ul {
+    display: inline-flex;
+}
+
 .logo-kekw {
     border-radius: 50%;
     border: #62b862dc solid 2px;
@@ -44,7 +53,6 @@ li {
 
 .header nav {
     float: right;
-    padding-right: 35px;
     line-height: 50px;
 }
 
@@ -161,6 +169,7 @@ body {
     transition-duration: .3s;
     color: black;
     border: solid 1px white;
+    cursor: crosshair;
 }
 
 ::-webkit-scrollbar {
@@ -215,5 +224,13 @@ body {
 @media screen and (min-width: 400px) and (max-width: 632px) {
     .header nav ul li a {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container,
+    ul {
+        display: flex;
+        flex-flow: column wrap;
     }
 }
