@@ -54,19 +54,17 @@ li {
     margin-left: 25px;
 }
 
+.header nav ul li a:hover {
+    transition-duration: .3s;
+    color: white;
+}
+
 .header nav ul li a {
     text-decoration: none;
     color: #f67600;
     font-size: 38px;
-}
-
-.header nav ul li a:hover {
-    background-color: #333333;
-    transition-duration: .1s;
-    border: solid 1px;
-    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
-    padding-left: 2%;
-    padding-right: 2%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .header.shadow {
@@ -76,6 +74,7 @@ li {
 }
 
 body {
+    box-sizing: border-box;
     height: 3000px;
     background-image: url(themes/boxed-bg-dark.jpg);
     margin-top: 120px;
@@ -96,7 +95,7 @@ body {
 }
 
 #box-title:hover {
-    border: 2px solid #15ff158c;
+    border: 2px solid #f67600;
 }
 
 #box {
