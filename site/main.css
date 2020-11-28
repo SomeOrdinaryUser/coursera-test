@@ -49,6 +49,7 @@ ul {
     width: 75px;
     float: left;
     margin-top: 9px;
+    margin-left: 13px;
 }
 
 .header nav {
@@ -213,17 +214,35 @@ body {
     .header nav ul li a {
         font-size: 30px;
     }
+    .logo-kekw {
+        height: 70px;
+        width: 70px;
+        margin-top: 12px;
+        margin-left: 14px;
+    }
 }
 
 @media screen and (min-width: 633px) and (max-width: 695px) {
     .header nav ul li a {
         font-size: 24px;
     }
+    .logo-kekw {
+        height: 65px;
+        width: 65px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
 }
 
 @media screen and (min-width: 400px) and (max-width: 632px) {
     .header nav ul li a {
         font-size: 16px;
+    }
+    .logo-kekw {
+        height: 60px;
+        width: 60px;
+        margin-top: 19px;
+        margin-left: 15px;
     }
 }
 
@@ -232,5 +251,10 @@ body {
     ul {
         display: flex;
         flex-flow: column wrap;
+    }
+    .logo-kekw {
+        height: 60px;
+        width: 60px;
+        margin-top: 19px;
     }
 }
