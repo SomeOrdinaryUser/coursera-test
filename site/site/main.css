@@ -1,0 +1,268 @@
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li {
+    font-family: "proxima-nova", sans-serif;
+}
+
+.container {
+    width: 72%;
+    margin: 0 auto;
+}
+
+.header {
+    font-size: 24px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(18 39 45);
+    position: fixed;
+    text-align: center;
+    line-height: 50px;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid turquoise;
+}
+
+.logo-kekw:hover {
+    border-radius: 50%;
+}
+
+.header nav {
+    float: right;
+    line-height: 50px;
+}
+
+ul {
+    display: inline-flex;
+}
+
+.logo-kekw {
+    border-radius: 50%;
+    border: #62b862dc solid 2px;
+    padding: 1.8px 1.8px;
+    height: 75px;
+    width: 75px;
+    float: left;
+    margin-top: 9px;
+    margin-left: 13px;
+}
+
+.header nav {
+    float: right;
+    line-height: 50px;
+}
+
+.header nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header nav ul li a:hover {
+    transition-duration: .3s;
+    color: white;
+}
+
+.header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #f67600;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: crosshair;
+}
+
+.header.shadow {
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+body {
+    height: 100%;
+    background-color: #100e17;
+    margin-top: 120px;
+}
+
+#box-title {
+    letter-spacing: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+#box #content {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#hobbies {
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+#box {
+    background-color: rgb(94 94 125 / 50%);
+    padding: 10px;
+    border: solid 2px black;
+    margin: auto;
+    width: 75%;
+    height: 400px;
+    box-sizing: border-box;
+    overflow: scroll;
+    margin-bottom: 85px;
+}
+
+#content {
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #62b862dc;
+    text-align: center;
+    /*green*/
+}
+
+#contentz {
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #62b862dc;
+    text-align: center;
+    /*green*/
+}
+
+#footer {
+    font-family: "Lucida Console", Courier, monospace;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(18 36 41);
+    border-top: 1px solid turquoise;
+    text-align: center;
+    height: 70px;
+}
+
+#footer ul li {
+    display: inline;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    font-size: 32px;
+    margin-right: 10px;
+    font-family: "proxima-nova", sans-serif;
+    padding: .2em 1em;
+    color: #f67600;
+    background-color: black;
+    border: 1px solid white;
+}
+
+#footer ul li a:hover {
+    background-color: #f67600;
+    transition-duration: .3s;
+    color: black;
+    border: solid 1px white;
+    cursor: crosshair;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    overflow: hidden;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #1aa260;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7a00708c;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 34px;
+    }
+    #footer ul li a {
+        font-size: 20px;
+    }
+    #footer {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 695px) and (max-width: 950px) {
+    .header nav ul li a {
+        font-size: 30px;
+    }
+    .logo-kekw {
+        height: 70px;
+        width: 70px;
+        margin-top: 12px;
+        margin-left: 14px;
+    }
+}
+
+@media screen and (min-width: 633px) and (max-width: 695px) {
+    .header nav ul li a {
+        font-size: 24px;
+    }
+    .logo-kekw {
+        height: 65px;
+        width: 65px;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 632px) {
+    .header nav ul li a {
+        font-size: 16px;
+    }
+    .logo-kekw {
+        height: 60px;
+        width: 60px;
+        margin-top: 19px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container,
+    ul {
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .logo-kekw {
+        height: 60px;
+        width: 60px;
+        margin-top: 19px;
+    }
+}
