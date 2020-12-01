@@ -79,17 +79,23 @@ body {
     background: white !important;
     border-radius: 50%;
     color: black;
-}
-
-.navbar-toggler-icon {
     text-decoration: none;
     padding-top: 3px;
     border: #4B0082 1px solid;
 }
 
+.navbar-toggler-icon:hover {
+    background: rgba(0, 0, 0, 0.842) !important;
+}
+
 #down-arrow-nav {
     text-decoration: none;
     font-size: 16px;
+    color: #9820b9;
+}
+
+#down-arrow-nav:hover {
+    color: #ffffff;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -98,7 +104,7 @@ body {
 
 .w3-text-pink,
 .w3-text-pink:hover {
-    color: #760098!important;
+    color: #760098 !important;
     border: 2px solid #760098 !important;
     padding: 8px;
 }
