@@ -9,8 +9,9 @@
     max-width: 90%;
     max-height: 90%;
     width: 40%;
-    height: 50px;
+    height: 53px;
     padding: 20px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.664);
 }
 
 html,
@@ -86,6 +87,15 @@ body {
 
 .navbar-toggler-icon:hover {
     background: rgba(0, 0, 0, 0.842) !important;
+}
+
+.box a {
+    color: rgb(255, 255, 255);
+}
+
+.box a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 #down-arrow-nav {
