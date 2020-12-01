@@ -1,0 +1,104 @@
+.box {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    max-width: 90%;
+    max-height: 90%;
+    width: 40%;
+    height: 50px;
+    padding: 20px 40px;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.w3-row img {
+    margin-bottom: -8px;
+    font-family: "Raleway", Arial, sans-serif;
+}
+
+body {
+    font-family: "Raleway", Arial, sans-serif;
+    background-image: url(https://picsum.photos/id/1080/6858/4574), linear-gradient(rgba(255, 153, 0, 0.993), rgba(148, 9, 153, 0.733));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.w3-light-grey,
+.w3-hover-light-grey:hover,
+.w3-light-gray,
+.w3-hover-light-gray:hover {
+    color: rgb(255, 255, 255)!important;
+    background-color: #52c542bd!important;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    font-weight: 600;
+    transition-duration: .25s;
+    color: #f67600 !important;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(0, 0, 0) !important;
+}
+
+.navbar-light .navbar-brand:hover {
+    font-weight: 600;
+    transition-duration: .25s;
+    color: #f67600 !important;
+}
+
+.bg-light {
+    border-radius: 5px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.navbar-toggler-icon {
+    background: white !important;
+    border-radius: 50%;
+    color: black;
+}
+
+.navbar-toggler-icon {
+    text-decoration: none;
+    padding-top: 3px;
+    border: #4B0082 1px solid;
+}
+
+#down-arrow-nav {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.w3-text-pink,
+.w3-text-pink:hover {
+    color: #760098!important;
+    border: 2px solid #760098 !important;
+    padding: 8px;
+}
