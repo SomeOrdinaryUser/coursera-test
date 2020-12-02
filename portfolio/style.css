@@ -40,6 +40,10 @@
         width: 100%;
     }
     
+    body {
+        background-color: #52c542bd;
+    }
+    
     .w3-row {
         background-color: #52c542bd;
     }
@@ -71,8 +75,8 @@
     .w3-hover-light-grey:hover,
     .w3-light-gray,
     .w3-hover-light-gray:hover {
-        color: rgb(255, 255, 255)!important;
-        background-color: #52c542bd!important;
+        color: rgb(255, 255, 255) !important;
+        background-color: #52c542bd !important;
     }
     
     .container {
@@ -235,7 +239,6 @@
         margin: 0 auto;
         background-color: black;
         color: white;
-        width: 100%;
         text-align: center;
         cursor: pointer;
         padding-bottom: 7px;
