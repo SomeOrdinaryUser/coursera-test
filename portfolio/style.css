@@ -173,3 +173,15 @@ html {
 .img-circle {
     border-radius: 50%;
 }
+
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
+    border: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
