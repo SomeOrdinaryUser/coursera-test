@@ -68,7 +68,7 @@
     }
     
     .box {
-        transition-duration: 1s;
+        transition-duration: 800ms;
     }
     
     .w3-light-grey,
@@ -93,7 +93,7 @@
     }
     
     .navbar-light .navbar-nav .nav-link:hover {
-        transition-duration: .2s;
+        transition-duration: 800ms;
         color: rgb(144, 192, 255) !important;
     }
     
@@ -138,7 +138,7 @@
     .box a:hover {
         text-decoration: none;
         color: rgba(255, 255, 255, 0.767);
-        transition-duration: 1.3s;
+        transition-duration: 800ms;
     }
     
     #nav-to {
@@ -152,8 +152,15 @@
     }
     
     #down-arrow-nav:hover {
-        color: rgb(144, 192, 255) !important;
-        transition-duration: .2s;
+        color: rgb(0, 0, 0) !important;
+        transition-duration: 800ms;
+    }
+    
+    .w3-dark-grey,
+    .w3-hover-dark-grey:hover,
+    .w3-dark-gray,
+    .w3-hover-dark-gray:hover {
+        transition-duration: 800ms;
     }
     
     .w3-text-pink,
@@ -165,24 +172,6 @@
     
     html {
         scroll-behavior: smooth !important;
-    }
-    
-    .left-arrow,
-    .right-arrow {
-        cursor: pointer;
-        text-decoration: none;
-        color: rgb(255, 0, 0);
-    }
-    
-    .left-arrow,
-    .right-arrow {
-        padding: 32px;
-    }
-    
-    .left-arrow:hover,
-    .right-arrow:hover {
-        text-decoration: none;
-        color: rgb(153, 41, 187);
     }
     
     .img-circle {
@@ -207,9 +196,9 @@
     }
     
     .collapsing {
-        -webkit-transition: .7s ease;
-        -o-transition: .7s ease;
-        transition: .7s ease;
+        -webkit-transition: 800ms ease;
+        -o-transition: 800ms ease;
+        transition: 800ms ease;
     }
     
     #myBtn {
@@ -217,22 +206,23 @@
         bottom: 15px;
         right: 47px;
         z-index: 99;
-        font-size: 18px;
-        border: 2px solid #222;
+        font-size: 32px;
+        border: 2px solid rgb(0, 0, 0);
         outline: none;
         background-color: rgba(255, 255, 255, 0.13);
-        color: rgb(245, 245, 245);
-        -webkit-backdrop-filter: blur(6px);
-        backdrop-filter: blur(6px);
+        color: rgb(255, 0, 0);
+        -webkit-backdrop-filter: blur(3px);
+        backdrop-filter: blur(3px);
         cursor: pointer;
-        padding: 5px 10px 5px 10px;
+        padding: 0px 8px 0px 9px;
         border-radius: 50%;
     }
     
     #myBtn:hover {
-        transition-duration: 500ms;
-        background-color: rgba(93, 93, 93, 0.06);
-        color: rgb(144, 192, 255);
+        transition-duration: 800ms;
+        color: rgb(255, 255, 255);
+        background: black;
+        border: 2px solid rgba(0, 255, 51, 0.496);
     }
     
     .ashland-map {
