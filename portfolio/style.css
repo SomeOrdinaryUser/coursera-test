@@ -1,0 +1,175 @@
+#contact p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#h2-about {
+    color: black;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.arrowz {
+    display: inline-block;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    max-width: 90%;
+    max-height: 90%;
+    width: 40%;
+    height: 53px;
+    padding: 20px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.664);
+    margin-top: 5px;
+}
+
+.box #instagram p {
+    padding: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.w3-row img {
+    margin-bottom: -8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://eadn-wc05-693804.nxedge.io/cdn/wp-content/uploads/2018/06/3209976-.jpg), linear-gradient(rgba(133, 228, 252, 0.993), rgb(234, 156, 236));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.w3-light-grey,
+.w3-hover-light-grey:hover,
+.w3-light-gray,
+.w3-hover-light-gray:hover {
+    color: rgb(255, 255, 255)!important;
+    background-color: #52c542bd!important;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    transition-duration: .2s;
+    color: rgb(144, 192, 255) !important;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.navbar-light .navbar-brand {
+    color: #fff
+}
+
+.navbar-light .navbar-brand:hover {
+    transition-duration: 800ms;
+    color: rgb(144, 192, 255) !important;
+}
+
+.bg-light {
+    border-radius: 5px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.navbar-toggler-icon {
+    background: transparent !important;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    padding-top: 4.1px;
+    border: rgba(255, 255, 255, 0.753) 1px solid;
+}
+
+#ashland-map {
+    height: 490px;
+}
+
+.navbar-toggler-icon:hover {
+    background: transparent !important;
+    color: black;
+}
+
+.box a {
+    color: black;
+}
+
+.box a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.767);
+}
+
+#nav-to {
+    border: 1px solid black;
+}
+
+#down-arrow-nav {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(250, 250, 250);
+}
+
+#down-arrow-nav:hover {
+    color: rgb(144, 192, 255) !important;
+    transition-duration: .2s;
+}
+
+.w3-text-pink,
+.w3-text-pink:hover {
+    color: #760098 !important;
+    border: 2px solid #760098 !important;
+    padding: 8px;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+.left-arrow,
+.right-arrow {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.left-arrow,
+.right-arrow {
+    padding: 32px;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+    text-decoration: none;
+    color: rgb(153, 41, 187);
+}
+
+.img-circle {
+    border-radius: 50%;
+}
