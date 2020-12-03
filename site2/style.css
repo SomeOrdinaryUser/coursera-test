@@ -1,0 +1,158 @@
+/*  Prevents any problems from occurring */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+.current-date {
+    color: rgb(183, 0, 255);
+    position: relative;
+    text-align: center;
+    font-size: 10vh;
+    margin-top: 15vh;
+    font-family: 'Baloo 2', cursive;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #191919;
+    font-family: 'Baloo 2', cursive;
+}
+
+.logo {
+    font-family: 'Baloo 2', cursive;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .8vh;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 33%;
+}
+
+.nav-links a {
+    color: #fff;
+    /* Removes underlines of anchor tags */
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: .09vh;
+    font-size: 14px;
+}
+
+.nav-links a:hover {
+    color: rgb(250, 162, 0);
+    transition-duration: 300ms;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    margin: 4px;
+    background-color: white;
+}
+
+.burger {
+    cursor: pointer;
+    display: none;
+}
+
+
+/* Tablet zone */
+
+@media screen and (max-width:1024px) {
+    .nav-links {
+        width: 60%;
+    }
+}
+
+
+/* Phones zone */
+
+@media screen and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-links {
+        z-index: 99;
+        position: absolute;
+        right: 0px;
+        width: 50%;
+        height: 92vh;
+        top: 8vh;
+        background-color: #333333;
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform ease-in .3s;
+    }
+    .burger {
+        display: block;
+        padding-top: 6.5px;
+        padding-bottom: 6.5px;
+        padding-right: 5px;
+        padding-left: 5px;
+        border-radius: 50%;
+    }
+    .burger:hover {
+        background-color: rgba(255, 255, 255, 0.137);
+    }
+    .nav-links a {
+        border-radius: 5px;
+        color: rgb(255, 153, 0);
+        font-size: 45px;
+        border-bottom: .1px solid rgb(255, 255, 255);
+        padding: 10px 40px 10px 40px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+    }
+    .nav-links a:hover {
+        cursor: pointer;
+        color: rgb(183, 0, 255);
+        font-size: 45.5px;
+        transition-duration: .05s;
+        text-shadow: 1px 1px rgba(1, 1, 1, 0.8);
+    }
+    #datetime {
+        transition-duration: .2s;
+    }
+    body {
+        background-color: black;
+        transition-duration: .2s;
+    }
+    .current-date {
+        transition-duration: .2s;
+        font-size: 5vh;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%) !important;
+}
+
+
+/* Edit date font */
+
+@media screen and (min-width:769px) and (max-width:1065px) {
+    .current-date {
+        transition-duration: .3s;
+        font-size: 8vh;
+    }
+}
