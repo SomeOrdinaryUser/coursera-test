@@ -17,3 +17,13 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+// Replace 3.6.3 with the current version number of Workbox.
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.0.2/workbox-sw.js');
+
+workbox.routing.registerRoute(
+    new RegExp('\.png$'),
+    workbox.strategies.cacheFirst({
+        cacheName: 'images-cache',
+    })
+);
