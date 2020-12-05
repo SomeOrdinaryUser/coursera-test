@@ -101,6 +101,11 @@
         flex-direction: column;
     }
     
+    .navbar {
+        position: absolute;
+        width: 100%;
+    }
+    
     .navbar-light .navbar-nav .nav-link {
         color: #fff;
     }
