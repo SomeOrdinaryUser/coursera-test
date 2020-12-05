@@ -1,3 +1,7 @@
+    html {
+        box-sizing: border-box;
+    }
+    
     .header-image-container {
         height: 25%;
         width: 95%;
@@ -21,17 +25,23 @@
         font-size: 48px;
     }
     
-    .arrowz {
-        display: inline-block;
+    .header-text {
+        font-family: 'Kalam', cursive;
+        font-size: 82px;
+        z-index: -1;
+        font-weight: 900;
+        color: rgba(255, 255, 255, 0.918);
+        position: relative;
+        text-align: center;
+        padding-top: 90px;
+        top: 15px;
     }
     
     .box {
         background-color: rgba(255, 255, 255, 0.3);
         border-radius: 10px;
-        font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         line-height: 1;
-        -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
         max-width: 90%;
         max-height: 90%;
@@ -41,6 +51,7 @@
         padding: 20px 40px;
         border: 1px solid rgba(255, 255, 255, 0.664);
         margin-top: 5px;
+        font-family: 'Kalam', cursive;
     }
     
     .box #instagram p {
@@ -93,6 +104,7 @@
     }
     
     .container {
+        position: initial;
         align-items: center;
         display: flex;
         justify-content: center;
@@ -107,12 +119,40 @@
     }
     
     .navbar-light .navbar-nav .nav-link {
+        font-weight: bold;
+        font-family: 'Kalam', cursive;
         color: #fff;
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    
+    .navbar-nav li {
+        margin-left: 9px;
+        text-align: center;
+    }
+    
+    .show>.navbar-nav {
+        z-index: 100;
+        transition-duration: 900ms;
+        padding: 35px;
+    }
+    
+    .show>.navbar-nav>li {
+        font-weight: bold;
+        font-family: 'Kalam', cursive;
+        z-index: 101;
+        border: 1px solid white;
+        transition-duration: 200ms;
+        padding: 8px;
+        background-color: rgba(0, 0, 0, 0.34);
+        border-radius: 8px;
     }
     
     .navbar-light .navbar-nav .nav-link:hover {
         transition-duration: 800ms;
-        color: rgb(144, 192, 255) !important;
+        color: rgb(25, 102, 255) !important;
+        text-transform: uppercase;
     }
     
     .navbar navbar-expand-lg navbar-light bg-light {
@@ -125,7 +165,6 @@
     
     .navbar-light .navbar-brand:hover {
         transition-duration: 800ms;
-        color: rgb(144, 192, 255) !important;
     }
     
     .bg-light {
@@ -155,8 +194,8 @@
     
     .box a:hover {
         text-decoration: none;
-        color: rgba(255, 255, 255, 0.767);
-        transition-duration: 800ms;
+        color: rgb(255, 255, 255);
+        font-weight: 600;
     }
     
     #nav-to {
