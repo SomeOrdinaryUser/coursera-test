@@ -1,298 +1,297 @@
-    html {
-        box-sizing: border-box;
-    }
-    
-    .header-image-container {
-        height: 25%;
-        width: 95%;
-        padding: 2.5%;
-    }
-    
-    .header-image img {
-        max-width: 100%;
-        height: auto;
-        background-repeat: no-repeat;
-    }
-    
-    #contact p {
-        font-size: 20px;
-        color: rgb(0, 0, 0);
-    }
-    
-    #h2-about {
-        color: black;
-        font-weight: 700;
-        font-size: 48px;
-    }
-    
-    .header-text {
-        font-family: 'Kalam', cursive;
-        font-size: 82px;
-        z-index: -1;
-        font-weight: 900;
-        color: rgba(255, 255, 255, 0.918);
-        position: relative;
-        text-align: center;
-        padding-top: 90px;
-        top: 15px;
-    }
-    
-    .box {
-        background-color: rgba(255, 255, 255, 0.3);
-        border-radius: 10px;
-        text-align: center;
-        line-height: 1;
-        backdrop-filter: blur(10px);
-        max-width: 90%;
-        max-height: 90%;
-        width: 40%;
-        position: initial;
-        height: 53px;
-        padding: 20px 40px;
-        border: 1px solid rgba(255, 255, 255, 0.664);
-        margin-top: 5px;
-        font-family: 'Kalam', cursive;
-    }
-    
-    .box #instagram p {
-        padding: 100%;
-    }
-    
-    html,
-    body {
-        height: 100%;
-        width: 100%;
-    }
-    
-    body {
-        background-color: #52c542bd;
-    }
-    
-    .w3-row {
-        background-color: #52c542bd;
-    }
-    
-    .w3-row img {
-        margin-bottom: -8px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        background-image: url(https://eadn-wc05-693804.nxedge.io/cdn/wp-content/uploads/2018/06/3209976-.jpg), linear-gradient(rgba(133, 228, 252, 0.993), rgb(234, 156, 236));
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    .ig-1 {
-        margin-bottom: 10px;
-        margin-right: 5px;
-        padding: 10px;
-    }
-    
-    .box {
-        transition-duration: 800ms;
-    }
-    
-    .w3-light-grey,
-    .w3-hover-light-grey:hover,
-    .w3-light-gray,
-    .w3-hover-light-gray:hover {
-        color: rgb(255, 255, 255) !important;
-        background-color: #52c542bd !important;
-    }
-    
-    .container {
-        position: initial;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        height: 65%;
-        width: 100%;
-        flex-direction: column;
-    }
-    
-    .navbar {
-        position: absolute;
-        width: 100%;
-    }
-    
-    .navbar-light .navbar-nav .nav-link {
-        font-weight: bold;
-        font-family: 'Kalam', cursive;
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 20px;
-        letter-spacing: 3px;
-    }
-    
-    .navbar-nav li {
-        margin-left: 9px;
-        text-align: center;
-    }
-    
-    .show>.navbar-nav {
-        z-index: 100;
-        transition-duration: 900ms;
-        padding: 35px;
-    }
-    
-    .show>.navbar-nav>li {
-        font-weight: bold;
-        font-family: 'Kalam', cursive;
-        z-index: 101;
-        border: 1px solid white;
-        transition-duration: 200ms;
-        padding: 8px;
-        background-color: rgba(0, 0, 0, 0.34);
-        border-radius: 8px;
-    }
-    
-    .navbar-light .navbar-nav .nav-link:hover {
-        transition-duration: 800ms;
-        color: rgb(25, 102, 255) !important;
-        text-transform: uppercase;
-    }
-    
-    .navbar navbar-expand-lg navbar-light bg-light {
-        background-color: rgba(255, 255, 255, 0.075);
-    }
-    
-    .navbar-light .navbar-brand {
-        color: #fff
-    }
-    
-    .navbar-light .navbar-brand:hover {
-        transition-duration: 800ms;
-    }
-    
-    .bg-light {
-        border-radius: 5px;
-        -webkit-backdrop-filter: blur(10px);
-        backdrop-filter: blur(10px);
-        background-color: rgba(255, 255, 255, 0.3) !important;
-    }
-    
-    .navbar-toggler-icon {
-        background: transparent !important;
-        border-radius: 50%;
-        color: white;
-        text-decoration: none;
-        padding-top: 4.1px;
-        border: rgba(255, 255, 255, 0.753) 1px solid;
-    }
-    
-    .navbar-toggler-icon:hover {
-        background: transparent !important;
-        color: black;
-    }
-    
-    .box a {
-        color: black;
-    }
-    
-    .box a:hover {
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        font-weight: 600;
-    }
-    
-    #nav-to {
-        border: 1px solid black;
-    }
-    
-    #down-arrow-nav {
-        text-decoration: none;
-        font-size: 16px;
-        color: rgb(250, 250, 250);
-    }
-    
-    #down-arrow-nav:hover {
-        color: rgb(0, 0, 0) !important;
-        transition-duration: 800ms;
-    }
-    
-    .w3-dark-grey,
-    .w3-hover-dark-grey:hover,
-    .w3-dark-gray,
-    .w3-hover-dark-gray:hover {
-        transition-duration: 800ms;
-    }
-    
-    .w3-text-pink,
-    .w3-text-pink:hover {
-        color: #760098 !important;
-        border: 2px solid #760098 !important;
-        padding: 8px;
-    }
-    
-    html {
-        scroll-behavior: smooth !important;
-    }
-    
-    .img-circle {
-        border-radius: 50%;
-    }
-    
-    .navbar-light .navbar-toggler {
-        border-color: transparent !important;
-        border: none !important;
-    }
-    
-    .navbar-toggler:focus,
-    .navbar-toggler:active,
-    .navbar-toggler-icon:focus {
-        outline: none;
-        box-shadow: none;
-    }
-    
-    .navbar-toggler-icon:hover {
-        border: black 1px solid;
-        transition-duration: 800ms;
-    }
-    
-    .collapsing {
-        -webkit-transition: 800ms ease;
-        -o-transition: 800ms ease;
-        transition: 800ms ease;
-    }
-    
-    #myBtn {
-        position: fixed;
-        bottom: 15px;
-        right: 47px;
-        z-index: 99;
-        font-size: 32px;
-        border: 2px solid rgb(0, 0, 0);
-        outline: none;
-        background-color: rgba(255, 255, 255, 0.13);
-        color: rgb(255, 0, 0);
-        -webkit-backdrop-filter: blur(3px);
-        backdrop-filter: blur(3px);
-        cursor: pointer;
-        padding: 0px 8px 0px 9px;
-        border-radius: 50%;
-    }
-    
-    #myBtn:hover {
-        transition-duration: 800ms;
-        color: rgb(255, 255, 255);
-        background: black;
-        border: 2px solid rgba(0, 255, 51, 0.496);
-    }
-    
-    .map-responsive {
-        overflow: hidden;
-        padding-bottom: 56.25%;
-        position: relative;
-        height: auto;
-    }
-    
-    .map-responsive iframe {
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-    }
+html {
+    box-sizing: border-box;
+}
+
+.header-image-container {
+    height: 25%;
+    width: 95%;
+    padding: 2.5%;
+}
+
+.header-image img {
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+#contact p {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#h2-about {
+    color: black;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.header-text {
+    font-family: 'Kalam', cursive;
+    font-size: 82px;
+    z-index: -1;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.918);
+    position: relative;
+    text-align: center;
+    padding-top: 90px;
+    top: 15px;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 1;
+    backdrop-filter: blur(10px);
+    max-width: 90%;
+    max-height: 90%;
+    width: 40%;
+    position: initial;
+    height: 53px;
+    padding: 20px 40px;
+    border: 1px solid rgba(255, 255, 255, 0.664);
+    margin-top: 5px;
+    font-family: 'Kalam', cursive;
+}
+
+.box #instagram p {
+    padding: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #52c542bd;
+}
+
+.w3-row {
+    background-color: #52c542bd;
+}
+
+.w3-row img {
+    margin-bottom: -8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://eadn-wc05-693804.nxedge.io/cdn/wp-content/uploads/2018/06/3209976-.jpg), linear-gradient(rgba(133, 228, 252, 0.993), rgb(234, 156, 236));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ig-1 {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.box {
+    transition-duration: 800ms;
+}
+
+.w3-light-grey,
+.w3-hover-light-grey:hover,
+.w3-light-gray,
+.w3-hover-light-gray:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: #52c542bd !important;
+}
+
+.container {
+    position: initial;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 65%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+    font-family: 'Kalam', cursive;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.navbar-nav li {
+    margin-left: 9px;
+    text-align: center;
+}
+
+.show>.navbar-nav {
+    z-index: 100;
+    transition-duration: 600ms;
+    padding: 20px;
+}
+
+.show>.navbar-nav>li {
+    font-weight: bold;
+    font-family: 'Kalam', cursive;
+    z-index: 101;
+    border: 1px solid white;
+    transition-duration: 200ms;
+    background-color: rgba(0, 0, 0, 0.34);
+    border-radius: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    transition-duration: 800ms;
+    color: rgb(25, 102, 255) !important;
+    text-transform: uppercase;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.navbar-light .navbar-brand {
+    color: #fff
+}
+
+.navbar-light .navbar-brand:hover {
+    transition-duration: 800ms;
+}
+
+.bg-light {
+    border-radius: 5px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.navbar-toggler-icon {
+    background: transparent !important;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    padding-top: 4.1px;
+    border: rgba(255, 255, 255, 0.753) 1px solid;
+}
+
+.navbar-toggler-icon:hover {
+    background: transparent !important;
+    color: black;
+}
+
+.box a {
+    color: black;
+}
+
+.box a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+#nav-to {
+    border: 1px solid black;
+}
+
+#down-arrow-nav {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(250, 250, 250);
+}
+
+#down-arrow-nav:hover {
+    color: rgb(0, 0, 0) !important;
+    transition-duration: 800ms;
+}
+
+.w3-dark-grey,
+.w3-hover-dark-grey:hover,
+.w3-dark-gray,
+.w3-hover-dark-gray:hover {
+    transition-duration: 800ms;
+}
+
+.w3-text-pink,
+.w3-text-pink:hover {
+    color: #760098 !important;
+    border: 2px solid #760098 !important;
+    padding: 8px;
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
+    border: none !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon:hover {
+    border: black 1px solid;
+    transition-duration: 800ms;
+}
+
+.collapsing {
+    -webkit-transition: 800ms ease;
+    -o-transition: 800ms ease;
+    transition: 800ms ease;
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 15px;
+    right: 47px;
+    z-index: 99;
+    font-size: 32px;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.13);
+    color: rgb(255, 0, 0);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    cursor: pointer;
+    padding: 0px 8px 0px 9px;
+    border-radius: 50%;
+}
+
+#myBtn:hover {
+    transition-duration: 800ms;
+    color: rgb(255, 255, 255);
+    background: black;
+    border: 2px solid rgba(0, 255, 51, 0.496);
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: auto;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
