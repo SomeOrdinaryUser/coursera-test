@@ -337,7 +337,7 @@
      
      @media screen and (max-width: 1024px) {
          #myBtn {
-             right: 12vh;
+             right: 10%;
              padding-right: 13px;
              padding-left: 13px;
              border-radius: 12px;
