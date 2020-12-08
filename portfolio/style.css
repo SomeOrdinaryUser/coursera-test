@@ -15,6 +15,7 @@
      }
      
      .block-text1 {
+         color: rgb(36, 36, 36);
          padding-top: 20px;
          padding-bottom: 35px;
          text-align: left;
@@ -244,9 +245,13 @@
      
      .w3-text-pink,
      .w3-text-pink:hover {
-         color: #760098 !important;
-         border: 2px solid #760098 !important;
-         padding: 8px;
+         color: #000000 !important;
+         font-weight: 500;
+         border: 2px solid #ffffff !important;
+         padding-top: 15px;
+         padding-bottom: 15px;
+         padding-left: 5px;
+         padding-right: 5px;
          border-radius: 15px;
      }
      
@@ -318,6 +323,10 @@
          color: rgb(255, 255, 255);
          background: black;
          border: 2px solid rgba(0, 255, 51, 0.496);
+     }
+     
+     #do-not {
+         white-space: nowrap;
      }
      
      .map-responsive {
