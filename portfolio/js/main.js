@@ -15,9 +15,3 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-
-// A function to show screen dimentions and page width
-function getScreenDimentions() {
-    document.documentElement.scrollHeight
-    document.getElementById("dimenstions").innerHTML = "Page Width: " + window.innerWidth + "<br/>" + "Display Width : " + screen.width + " Pixels" + "<br/> Display Height : " + screen.height + " Pixels";
-}
