@@ -335,8 +335,9 @@
          position: absolute;
      }
      
-     @media screen and (max-width: 1032px) {
+     @media screen and (max-width: 1024px) {
          #myBtn {
+             right: 12vh;
              padding-right: 13px;
              padding-left: 13px;
              border-radius: 12px;
