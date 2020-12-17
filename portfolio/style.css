@@ -243,6 +243,10 @@
          transition-duration: 800ms;
      }
      
+     div#emf-container-outer {
+         background-color: black !important;
+     }
+     
      .w3-text-pink,
      .w3-text-pink:hover {
          color: #000000 !important;
